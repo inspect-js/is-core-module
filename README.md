@@ -4,7 +4,8 @@
 
 Returns whether or not the `packageName` you pass in is a core module or not.
 
-module list pulled from [nodejs repo](https://github.com/joyent/node/tree/master/lib)
+
+Look at the source, you probably just want to use that function.
 
 # Usage
 
