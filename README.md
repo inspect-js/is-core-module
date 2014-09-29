@@ -5,7 +5,7 @@
 Returns whether or not the `packageName` you pass in is a core module or not.
 
 
-Look at the source, you probably just want to use that function.
+Look at the source, you probably just want to use that function. I just can't ever remember it.
 
 # Usage
 
