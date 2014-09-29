@@ -1,0 +1,25 @@
+{
+  "name": "is-core-module",
+  "version": "1.0.0",
+  "description": "check if packageName is a core module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meandavejustice/is-core-module.git"
+  },
+  "keywords": [
+    "core",
+    "modules",
+    "npm",
+    "dependencies"
+  ],
+  "author": "meandave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meandavejustice/is-core-module/issues"
+  },
+  "homepage": "https://github.com/meandavejustice/is-core-module"
+}
