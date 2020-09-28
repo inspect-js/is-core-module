@@ -13,7 +13,9 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "tape test",
+		"test": "npm run tests-only",
+		"posttest": "aud --production"
 	},
 	"repository": {
 		"type": "git",
@@ -38,5 +40,9 @@
 	"homepage": "https://github.com/inspect-js/is-core-module",
 	"dependencies": {
 		"has": "^1.0.3"
+	},
+	"devDependencies": {
+		"aud": "^1.1.2",
+		"tape": "^5.0.1"
 	}
 }
