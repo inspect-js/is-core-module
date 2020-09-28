@@ -35,5 +35,8 @@
 	"bugs": {
 		"url": "https://github.com/inspect-js/is-core-module/issues"
 	},
-	"homepage": "https://github.com/inspect-js/is-core-module"
+	"homepage": "https://github.com/inspect-js/is-core-module",
+	"dependencies": {
+		"has": "^1.0.3"
+	}
 }
