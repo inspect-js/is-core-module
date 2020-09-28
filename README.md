@@ -1,18 +1,37 @@
-# is-core-module
+# is-core-module <sup>[![Version Badge][2]][1]</sup>
 
-[![NPM](https://nodei.co/npm/is-core-module.png?downloads=true)](https://npmjs.org/package/is-core-module)
+[![Build Status][3]][4]
+[![dependency status][5]][6]
+[![dev dependency status][7]][8]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
 
-Returns whether or not the `packageName` you pass in is a core module or not.
+[![npm badge][11]][1]
 
+Is this specifier a node.js core module? Optionally provide a node version to check; defaults to the current node version.
 
-Look at the source, you probably just want to use that function. I just can't ever remember it.
+## Example
 
-# Usage
-
-``` javascript
-require('is-core-module')('fs') // returns true
-require('is-core-module')('butts') // returns false
+```js
+var isCore = require('is-core-module');
+var assert = require('assert');
+assert(isCore('fs'));
+assert(!isCore('butts'));
 ```
 
-## License
-MIT
+## Tests
+Clone the repo, `npm install`, and run `npm test`
+
+[1]: https://npmjs.org/package/is-core-module
+[2]: http://versionbadg.es/inspect-js/is-core-module.svg
+[3]: https://travis-ci.org/inspect-js/is-core-module.svg
+[4]: https://travis-ci.org/inspect-js/is-core-module
+[5]: https://david-dm.org/inspect-js/is-core-module.svg
+[6]: https://david-dm.org/inspect-js/is-core-module
+[7]: https://david-dm.org/inspect-js/is-core-module/dev-status.svg
+[8]: https://david-dm.org/inspect-js/is-core-module#info=devDependencies
+[11]: https://nodei.co/npm/is-core-module.png?downloads=true&stars=true
+[license-image]: http://img.shields.io/npm/l/is-core-module.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/is-core-module.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=is-core-module
