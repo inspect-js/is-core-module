@@ -23,15 +23,15 @@ assert(!isCore('butts'));
 Clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-core-module
-[2]: http://versionbadg.es/inspect-js/is-core-module.svg
-[3]: https://travis-ci.org/inspect-js/is-core-module.svg
-[4]: https://travis-ci.org/inspect-js/is-core-module
+[2]: https://versionbadg.es/inspect-js/is-core-module.svg
+[3]: https://travis-ci.com/inspect-js/is-core-module.svg
+[4]: https://travis-ci.com/inspect-js/is-core-module
 [5]: https://david-dm.org/inspect-js/is-core-module.svg
 [6]: https://david-dm.org/inspect-js/is-core-module
 [7]: https://david-dm.org/inspect-js/is-core-module/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-core-module#info=devDependencies
 [11]: https://nodei.co/npm/is-core-module.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-core-module.svg
+[license-image]: https://img.shields.io/npm/l/is-core-module.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-core-module.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-core-module
+[downloads-image]: https://img.shields.io/npm/dm/is-core-module.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-core-module
