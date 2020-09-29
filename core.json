@@ -14,7 +14,7 @@
     "dgram": true,
     "dns": true,
     "dns/promises": ">= 15",
-    "domain": true,
+    "domain": ">= 0.7.12",
     "events": true,
     "freelist": "< 6",
     "fs": true,
