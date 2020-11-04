@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.1.0](https://github.com/meandavejustice/is-core-module/compare/v2.0.0...v2.1.0) - 2020-11-04
+
+### Commits
+
+- [Dev Deps] update `eslint` [`5e0034e`](https://github.com/meandavejustice/is-core-module/commit/5e0034eae57c09c8f1bd769f502486a00f56c6e4)
+- [New] Add `diagnostics_channel` [`c2d83d0`](https://github.com/meandavejustice/is-core-module/commit/c2d83d0a0225a1a658945d9bab7036ea347d29ec)
+
 ## [v2.0.0](https://github.com/meandavejustice/is-core-module/compare/v1.0.2...v2.0.0) - 2020-09-29
 
 ### Commits
