@@ -15,8 +15,8 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"tests-only": "tape test",
-		"test": "npm run tests-only",
+		"tests-only": "tape 'test/**/*.js'",
+		"test": "nyc npm run tests-only",
 		"posttest": "aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -50,6 +50,7 @@
 		"aud": "^1.1.2",
 		"auto-changelog": "^2.2.1",
 		"eslint": "^7.12.1",
+		"nyc": "^10.3.2",
 		"tape": "^5.0.1"
 	},
 	"auto-changelog": {
