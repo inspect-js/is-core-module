@@ -62,6 +62,7 @@ function versionIncluded(nodeVersion, specifierValue) {
 
 var data = require('./core.json');
 
+var hasOwnProperty = Object.prototype.hasOwnProperty;
 module.exports = function isCore(x, nodeVersion) {
-	return Object.prototype.hasOwnProperty.call(data, x) && versionIncluded(nodeVersion, data[x]);
+	return hasOwnProperty.call(data, x) && versionIncluded(nodeVersion, data[x]);
 };
