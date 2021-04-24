@@ -53,6 +53,7 @@
 		"eslint": "^7.19.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
+		"semver": "^6.3.0",
 		"tape": "^5.1.1"
 	},
 	"auto-changelog": {
