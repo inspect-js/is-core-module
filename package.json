@@ -48,8 +48,8 @@
 		"has": "^1.0.3"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.5.1",
-		"aud": "^1.1.4",
+		"@ljharb/eslint-config": "^17.6.0",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
 		"eslint": "^7.25.0",
 		"nyc": "^10.3.2",
