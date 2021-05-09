@@ -22,7 +22,7 @@
 	"_debugger": "< 8",
 	"dgram": true,
 	"node:dgram": ">= 16",
-	"diagnostics_channel": ">= 15.1",
+	"diagnostics_channel": [">= 14.17 && < 15", ">= 15.1"],
 	"node:diagnostics_channel": ">= 16",
 	"dns": true,
 	"node:dns": ">= 16",
