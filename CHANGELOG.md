@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.4.0](https://github.com/inspect-js/is-core-module/compare/v2.3.0...v2.4.0) - 2021-05-09
+
+### Commits
+
+- [readme] add actions and codecov badges [`82b7faa`](https://github.com/inspect-js/is-core-module/commit/82b7faa12b56dbe47fbea67e1a5b9e447027ba40)
+- [Dev Deps] update `@ljharb/eslint-config`, `aud` [`8096868`](https://github.com/inspect-js/is-core-module/commit/8096868c024a161ccd4d44110b136763e92eace8)
+- [Dev Deps] update `eslint` [`6726824`](https://github.com/inspect-js/is-core-module/commit/67268249b88230018c510f6532a8046d7326346f)
+- [New] add `diagnostics_channel` to node `^14.17` [`86c6563`](https://github.com/inspect-js/is-core-module/commit/86c65634201b8ff9b3e48a9a782594579c7f5c3c)
+- [meta] fix prepublish script [`697a01e`](https://github.com/inspect-js/is-core-module/commit/697a01e3c9c0be074066520954f30fb28532ec57)
+
 ## [v2.3.0](https://github.com/inspect-js/is-core-module/compare/v2.2.0...v2.3.0) - 2021-04-24
 
 ### Commits
