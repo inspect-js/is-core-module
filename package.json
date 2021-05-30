@@ -44,9 +44,6 @@
 		"url": "https://github.com/inspect-js/is-core-module/issues"
 	},
 	"homepage": "https://github.com/inspect-js/is-core-module",
-	"dependencies": {
-		"has": "^1.0.3"
-	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.6.0",
 		"aud": "^1.1.5",
