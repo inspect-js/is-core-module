@@ -3,6 +3,7 @@
 	"version": "2.6.0",
 	"description": "Is this specifier a node.js core module?",
 	"main": "index.js",
+	"sideEffects": false,
 	"exports": {
 		".": [
 			{
