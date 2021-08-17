@@ -105,6 +105,7 @@ test('core modules', function (t) {
 	});
 
 	t.test('Object.prototype pollution', function (st) {
+		/* eslint no-extend-native: 1 */
 		var nonKey = 'not a core module';
 		st.teardown(function () {
 			delete Object.prototype.fs;
