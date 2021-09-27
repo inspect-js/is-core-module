@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.7.0](https://github.com/inspect-js/is-core-module/compare/v2.6.0...v2.7.0) - 2021-09-27
+
+### Commits
+
+- [New] node `v14.18` added `node:`-prefixed core modules to `require` [`6d943ab`](https://github.com/inspect-js/is-core-module/commit/6d943abe81382b9bbe344384d80fbfebe1cc0526)
+- [Tests] add coverage for Object.prototype pollution [`c6baf5f`](https://github.com/inspect-js/is-core-module/commit/c6baf5f942311a1945c1af41167bb80b84df2af7)
+- [Dev Deps] update `@ljharb/eslint-config` [`6717f00`](https://github.com/inspect-js/is-core-module/commit/6717f000d063ea57beb772bded36c2f056ac404c)
+- [eslint] fix linter warning [`594c10b`](https://github.com/inspect-js/is-core-module/commit/594c10bb7d39d7eb00925c90924199ff596184b2)
+- [meta] add `sideEffects` flag [`c32cfa5`](https://github.com/inspect-js/is-core-module/commit/c32cfa5195632944c4dd4284a142b8476e75be13)
+
 ## [v2.6.0](https://github.com/inspect-js/is-core-module/compare/v2.5.0...v2.6.0) - 2021-08-17
 
 ### Commits
