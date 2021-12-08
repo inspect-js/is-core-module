@@ -49,14 +49,14 @@
 		"has": "^1.0.3"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^18.0.0",
+		"@ljharb/eslint-config": "^20.0.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
-		"eslint": "^7.32.0",
+		"eslint": "^8.4.1",
 		"nyc": "^10.3.2",
-		"safe-publish-latest": "^1.1.4",
+		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.0",
-		"tape": "^5.3.1"
+		"tape": "^5.3.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
