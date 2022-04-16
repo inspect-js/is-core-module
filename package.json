@@ -53,6 +53,7 @@
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
 		"eslint": "^8.6.0",
+		"mock-property": "^1.0.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.0",

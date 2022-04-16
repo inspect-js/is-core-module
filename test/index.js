@@ -3,6 +3,8 @@
 var test = require('tape');
 var keys = require('object-keys');
 var semver = require('semver');
+var mockProperty = require('mock-property');
+
 var isCore = require('../');
 var data = require('../core.json');
 
@@ -105,18 +107,11 @@ test('core modules', function (t) {
 	});
 
 	t.test('Object.prototype pollution', function (st) {
-		/* eslint no-extend-native: 1 */
 		var nonKey = 'not a core module';
-		st.teardown(function () {
-			delete Object.prototype.fs;
-			delete Object.prototype.path;
-			delete Object.prototype.http;
-			delete Object.prototype[nonKey];
-		});
-		Object.prototype.fs = false;
-		Object.prototype.path = '>= 999999999';
-		Object.prototype.http = data.http;
-		Object.prototype[nonKey] = true;
+		st.teardown(mockProperty(Object.prototype, 'fs', { value: false }));
+		st.teardown(mockProperty(Object.prototype, 'path', { value: '>= 999999999' }));
+		st.teardown(mockProperty(Object.prototype, 'http', { value: data.http }));
+		st.teardown(mockProperty(Object.prototype, nonKey, { value: true }));
 
 		st.equal(isCore('fs'), true, 'fs is a core module even if Object.prototype lies');
 		st.equal(isCore('path'), true, 'path is a core module even if Object.prototype lies');
