@@ -5,12 +5,7 @@
 	"main": "index.js",
 	"sideEffects": false,
 	"exports": {
-		".": [
-			{
-				"default": "./index.js"
-			},
-			"./index.js"
-		],
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
