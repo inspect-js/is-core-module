@@ -53,16 +53,18 @@ test('core modules', function (t) {
 					function () { require(mod); }, // eslint-disable-line no-loop-func
 					'requiring ' + mod + ' does not throw'
 				);
-				if (supportsNodePrefix) {
-					st.doesNotThrow(
-						function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
-						'requiring node:' + mod + ' does not throw'
-					);
-				} else {
-					st['throws'](
-						function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
-						'requiring node:' + mod + ' throws'
-					);
+				if (mod.slice(0, 5) !== 'node:') {
+					if (supportsNodePrefix) {
+						st.doesNotThrow(
+							function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
+							'requiring node:' + mod + ' does not throw'
+						);
+					} else {
+						st['throws'](
+							function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
+							'requiring node:' + mod + ' throws'
+						);
+					}
 				}
 			}
 		}
@@ -81,6 +83,10 @@ test('core modules', function (t) {
 				'v8/tools/tickprocessor',
 				'v8/tools/profile'
 			];
+			// see https://github.com/nodejs/node/issues/42785
+			if (semver.satisfies(process.version, '>= 18')) {
+				libs = libs.concat('node:test');
+			}
 			for (var i = 0; i < libs.length; ++i) {
 				var mod = libs[i];
 				if (excludeList.indexOf(mod) === -1) {
@@ -89,16 +95,18 @@ test('core modules', function (t) {
 						function () { require(mod); }, // eslint-disable-line no-loop-func
 						'requiring ' + mod + ' does not throw'
 					);
-					if (supportsNodePrefix) {
-						st.doesNotThrow(
-							function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
-							'requiring node:' + mod + ' does not throw'
-						);
-					} else {
-						st['throws'](
-							function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
-							'requiring node:' + mod + ' throws'
-						);
+					if (mod.slice(0, 5) !== 'node:') {
+						if (supportsNodePrefix) {
+							st.doesNotThrow(
+								function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
+								'requiring node:' + mod + ' does not throw'
+							);
+						} else {
+							st['throws'](
+								function () { require('node:' + mod); }, // eslint-disable-line no-loop-func
+								'requiring node:' + mod + ' throws'
+							);
+						}
 					}
 				}
 			}
