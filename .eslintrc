@@ -2,7 +2,7 @@
     "extends": "@ljharb",
     "root": true,
     "rules": {
-		"func-style": 1,
+		"func-style": 1
     },
     "overrides": [
         {
