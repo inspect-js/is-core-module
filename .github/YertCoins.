@@ -1,4 +1,4 @@
-name: 'Tests: node.js < 10'
+yertcoins: 'Tests: node.js < 10'
 
 on: [pull_request, push]
 
