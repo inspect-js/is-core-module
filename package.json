@@ -50,12 +50,12 @@
 		"auto-changelog": "^2.4.0",
 		"eslint": "=8.8.0",
 		"in-publish": "^2.0.1",
-		"mock-property": "^1.0.0",
+		"mock-property": "^1.0.2",
 		"npmignore": "^0.3.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.1",
-		"tape": "^5.6.6"
+		"tape": "^5.7.1"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
