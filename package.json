@@ -69,5 +69,8 @@
 		"ignore": [
 			".github"
 		]
+	},
+	"engines": {
+		"node": ">= 0.4"
 	}
 }
