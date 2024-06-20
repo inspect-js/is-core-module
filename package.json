@@ -42,7 +42,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/is-core-module",
 	"dependencies": {
-		"hasown": "^2.0.0"
+		"hasown": "^2.0.2"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
