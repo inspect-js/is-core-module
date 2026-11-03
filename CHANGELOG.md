@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.18.0](https://github.com/inspect-js/is-core-module/compare/v2.17.0...v2.18.0) - 2026-11-03
+
+### Commits
+
+- [Dev Deps] update `@ljharb/eslint-config`, `@types/node`, `auto-changelog`, `eslint`, `npmignore`, `tape` [`0e0fcba`](https://github.com/inspect-js/is-core-module/commit/0e0fcbac89a705062d8baa1fb9d94fc18ad0afc2)
+- [New] add `node:vfs` and `net/promises` for node 27; remove _tls_* modules [`72ee699`](https://github.com/inspect-js/is-core-module/commit/72ee6999c8a2d88c4e7cb0e87108097a85e0f513)
+
 ## [v2.17.0](https://github.com/inspect-js/is-core-module/compare/v2.16.2...v2.17.0) - 2026-09-16
 
 ### Commits
